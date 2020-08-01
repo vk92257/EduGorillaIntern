@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+     tools:context=".MainActivity"
+    >
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <ImageView
+           android:src="@drawable/frontpage"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:scaleType="centerCrop"
+          />
+            <ProgressBar
+                style="?android:attr/progressBarStyleLarge"
+                android:id="@+id/MainActivity_progressbar"
+                android:layout_width="wrap_content"
+                android:visibility="invisible"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/loginPage"
+           android:layout_gravity="center_horizontal"
+           android:textSize="50dp"
+           android:textColor="@color/black"
+           />
+
+      <com.google.android.gms.common.SignInButton
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="bottom|center"
+            android:background="@drawable/button"
+          android:id="@+id/googleSginIn"
+          android:layout_marginLeft="30dp"
+          android:layout_marginRight="30dp"
+          android:layout_marginBottom="150dp"
+
+          />
+   </FrameLayout>
+
+</LinearLayout>

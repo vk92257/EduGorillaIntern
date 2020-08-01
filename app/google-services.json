@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "589269160612",
+    "firebase_url": "https://edugorillaintern.firebaseio.com",
+    "project_id": "edugorillaintern",
+    "storage_bucket": "edugorillaintern.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589269160612:android:b49a78f392bc7a1ed18c31",
+        "android_client_info": {
+          "package_name": "com.example.edugorillaintern"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589269160612-slln82b3ico6sa71d7r49dipm3rtag9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5-gcACKbXd903CmpRA1lgMthrPAVOqJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589269160612-slln82b3ico6sa71d7r49dipm3rtag9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
